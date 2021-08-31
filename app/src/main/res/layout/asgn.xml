@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/doge"
+        android:layout_width="150dp"
+        android:layout_height="130dp"
+        android:src="@drawable/doge"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/sign_in"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/wperson"
+        android:layout_width="370dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/shape"
+        android:drawableLeft="@drawable/person"
+        android:drawableRight="@drawable/help2"
+        android:drawablePadding="5dp"
+        android:hint="@string/username"
+        android:paddingHorizontal="6dp"
+        android:paddingVertical="13dp"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="370dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:background="@drawable/shape"
+        android:layout_marginTop="15dp"
+        android:paddingHorizontal="6dp"
+        android:hint="@string/password"
+        android:paddingVertical="13dp"
+        android:drawablePadding="5dp"
+        android:textSize="20sp"
+        android:drawableLeft="@drawable/lock"
+        android:drawableRight="@drawable/help2" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:text="Remember Me"
+        android:layout_marginLeft="0dp" />
+
+
+
+
+    <Button
+        android:id="@+id/btnIN"
+        android:layout_width="370dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="9dp"
+        android:layout_gravity="center"
+        android:textSize="15sp"
+        android:text="@string/sign_in" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp"
+        android:text="Need help signing in?"
+        android:layout_marginLeft="20dp" />
+
+
+</LinearLayout>
